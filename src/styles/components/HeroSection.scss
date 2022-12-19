@@ -1,14 +1,15 @@
 #Hero{
     background-color: $jaguarRose;
-    height: calc(100vh - 60px);
+    height: calc(100vh);
     display: flex;
     flex-direction: column;
     align-content: center;
     justify-content: center;
     text-align: center;
     gap: 32px;
+    padding-top: 60px;
     img{
-        width: 270px;
+        width: 235px;
         margin: 0 auto;
     }
     h1{
