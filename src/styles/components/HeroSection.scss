@@ -1,0 +1,19 @@
+#Hero{
+    background-color: $jaguarRose;
+    height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    gap: 32px;
+    img{
+        width: 270px;
+        margin: 0 auto;
+    }
+    h1{
+        max-width: 237px;
+        margin: 0 auto;
+        color: $gutsyGrapeColor;
+    }
+}
