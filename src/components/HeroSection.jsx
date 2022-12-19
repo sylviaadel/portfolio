@@ -1,6 +1,6 @@
 import HeroImage from '../assets/images/hero-image.png'
 
-export default function Navbar() {
+export default function Hero() {
     return (
         <section id='Hero'>
             <img src={HeroImage} alt="A girl using her laptop to write codes." />
