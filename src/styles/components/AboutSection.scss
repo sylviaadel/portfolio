@@ -1,0 +1,19 @@
+#About{
+    background-color: $heavenlyPinkColor;
+    color: $gutsyGrapeColor;
+    padding: 4rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h1{
+        margin-bottom: $spacing-medium;
+        text-align: center;
+    }
+    p{
+        margin-bottom: $spacing-medium;
+        max-width: 380px;
+    }
+    img{
+        margin: 0 auto;
+    }
+}
