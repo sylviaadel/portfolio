@@ -6,7 +6,7 @@ export default function Navbar() {
             <ul className="nav-links">
                 <li>About</li>
                 <li>Projects</li>
-                <img className='logo' src={Logo} />
+                <a href='#Hero'><img className='logo' alt="Frontend Logo" src={Logo} /></a>
                 <li>Tech</li>
                 <li>Contact</li>
             </ul>
