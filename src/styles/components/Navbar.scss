@@ -1,0 +1,31 @@
+.navbar{
+    position:fixed;
+    width: 100%;
+    background-color: $heavenlyPinkColor;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 3px 8px rgba(0,0,0,.25);
+    ul.nav-links{
+        height: 30px;
+        width: 90%;
+        background-color: $aspenSnowColor;
+        border-radius: 500px;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 4%;
+        li{
+            display: inline;
+            color: $gutsyGrapeColor;
+            font-size: 16px;
+            line-height: 24px;
+        }
+        .logo{
+                height: 45px;
+                color: $darkRose;
+        }
+    }
+}
