@@ -2,14 +2,14 @@
   {
     "id": 1,
     "name": "Todo List",
-    "image": "/assets/images/urban-shopping.png",
+    "image": "urban-shopping.png",
     "alt": "Todo List",
     "isDone": true
   },
   {
     "id": 2,
     "name": "Portfolio Website",
-    "image": "/assets/images/portfolio-website.png",
+    "image": "portfolio-website.png",
     "alt": "Portfolio Website",
     "isDone": false
   },

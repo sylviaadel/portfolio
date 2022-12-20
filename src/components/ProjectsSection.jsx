@@ -1,9 +1,9 @@
-import project from './../ProjectItems.json'
+import project from './../models/ProjectItems.json'
 
 export default function Projects() {
     const projectItems = project.map((project) => (
         <li key={project.id} className="project-item">
-            <img src={project.image} alt={project.alt} />
+            <img src={`images/projects/${project.image}`} alt={project.alt} />
             <div className="coming-soon-div">
                 <label>Coming Soon</label>
             </div>
