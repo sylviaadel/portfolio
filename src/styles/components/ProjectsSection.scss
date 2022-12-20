@@ -1,0 +1,55 @@
+#Projects{
+    background-color: $aspenSnowColor;
+    padding: 4rem 2rem;
+    color: $darkRose;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1{
+        margin-bottom: $spacing-medium;
+    }
+    p{
+        max-width: 380px;
+        text-align: center;
+        margin-bottom: $spacing-large;
+    }
+    ul{
+        list-style: none;
+        display: flex;
+        flex-flow: wrap;
+        gap: $spacing-medium;
+        align-items: center;
+        justify-content: center;
+        margin: 0 -10px;
+        max-width: 580px;
+        img{
+            border-radius: 6px;
+            margin-bottom: $spacing-small;
+            width: 155px;
+            height: 117px;
+        }
+        .project-item{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            border-radius: 6px;
+            .coming-soon-div{
+                background-color: rgba(85, 132, 118, .5);
+                width: 155px;
+                height: 117px;
+                border-radius: 6px;
+                position: absolute;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                label{
+                    font-size: 26px;
+                    color: $whiteColor;
+                    font-weight: bold;
+                    width: 100px;
+                }
+            }
+        }
+    }
+}
