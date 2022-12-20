@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "Todo List",
+    "image": "urban-shopping.png",
+    "alt": "Todo List",
+    "isDone": true
+  },
+  {
+    "id": 2,
+    "name": "Portfolio Website",
+    "image": "portfolio-website.png",
+    "alt": "Portfolio Website",
+    "isDone": false
+  },
+  {
+    "id": 3,
+    "name": "Vegan Restaurant",
+    "image": "vegan-res.png",
+    "alt": "Vegan Restaurant",
+    "isDone": false
+  },
+  {
+    "id": 4,
+    "name": "Package Tracker",
+    "image": "package-tracker.png",
+    "alt": "Package Tracker",
+    "isDone": false
+  },
+  {
+    "id": 5,
+    "name": "TTD Todo",
+    "image": "ttd-todo.png",
+    "alt": "TTD Todo",
+    "isDone": false
+  },
+  {
+    "id": 6,
+    "name": "BBQ Restaurant",
+    "image": "bbq-res.png",
+    "alt": "BBQ Restaurant",
+    "isDone": false
+  },
+  {
+    "id": 7,
+    "name": "Learning Platform",
+    "image": "learning-platform.png",
+    "alt": "Learning Platform",
+    "isDone": false
+  },
+  {
+    "id": 8,
+    "name": "Netflix",
+    "image": "netflix.png",
+    "alt": "Netflix",
+    "isDone": false
+  }
+]
