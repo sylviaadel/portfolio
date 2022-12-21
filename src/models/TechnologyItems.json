@@ -1,0 +1,60 @@
+{
+  "knownTech": [
+    {
+      "id": 1,
+      "name": "HTML",
+      "image": "html-icon.svg",
+      "alt": "HTML Logo"
+    },
+    {
+      "id": 2,
+      "name": "CSS 3",
+      "image": "css3-icon.svg",
+      "alt": "CSS 3 Logo"
+    },
+    {
+      "id": 3,
+      "name": "SASS",
+      "image": "sass-icon.svg",
+      "alt": "SASS Logo"
+    }
+  ],
+  "newTech":[
+    {
+      "id": 4,
+      "name": "React",
+      "image": "react-icon.svg",
+      "alt": "React Icon"
+    },
+    {
+      "id": 5,
+      "name": "Typescript",
+      "image": "typescript-icon.svg",
+      "alt": "Typescript Logo"
+    },
+    {
+      "id": 6,
+      "name": "Javascript",
+      "image": "javascript-icon.svg",
+      "alt": "Javascript Logo"
+    },
+    {
+      "id": 7,
+      "name": "Github",
+      "image": "github-icon.svg",
+      "alt": "Github Logo"
+    },
+    {
+      "id": 8,
+      "name": "Figma",
+      "image": "figma-icon.svg",
+      "alt": "Figma Logo"
+    },
+    {
+      "id": 9,
+      "name": "Firebase",
+      "image": "firebase-icon.svg",
+      "alt": "Firebase Logo"
+    }
+  ]
+}
