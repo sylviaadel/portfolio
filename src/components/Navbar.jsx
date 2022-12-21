@@ -1,5 +1,7 @@
 import Logo from '../assets/images/FrontendLogo.svg'
 
+window.addEventListener("hashchange", () => window.history.pushState({}, "", '/'), {});
+
 export default function Navbar() {
     return (
         <nav className="navbar">

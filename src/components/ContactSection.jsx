@@ -1,6 +1,9 @@
 import envelopIcon from './../assets/images/envolop-icon.svg';
 import phoneIcon from './../assets/images/phone-icon.svg';
-import markerIcon from './../assets/images/marker-icon.svg'
+import markerIcon from './../assets/images/marker-icon.svg';
+import instagramIcon from './../assets/images/instagram-icon.svg';
+import linkedInIcon from './../assets/images/linkedin-icon.svg';
+import githubIcon from './../assets/images/github-icon.svg';
 export default function Contact() {
     return (
         <section id='Contact'>
@@ -24,6 +27,14 @@ export default function Contact() {
                     <label>Stockholm, Sweden</label>
                 </li>
             </ul>
+            <footer>
+                <ul>
+                    <li><a target='_blank' rel="noreferrer" href='https://www.linkedin.com/in/sylvia-tadross-710b9597'><img src={linkedInIcon} alt="LinkedinIcon" /></a></li>
+                    <li><a target='_blank' rel="noreferrer" href='https://www.instagram.com/sylvia.adel.50/'><img src={instagramIcon} alt="Instagram Icon" /></a></li>
+                    <li><a target='_blank' rel="noreferrer" href='https://github.com/sylviaadel'><img src={githubIcon} alt="Github Icon" /></a></li>
+                </ul>
+                <small>© 2021 • Sylvia Tadross</small>
+            </footer>
         </section>
     );
 }
