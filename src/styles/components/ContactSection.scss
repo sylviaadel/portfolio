@@ -12,11 +12,15 @@
     }
     p{
         margin-bottom: $spacing-xlarge;
+        max-width: 380px;
+        text-align: center;
     }
     ul{
         list-style: none;
         text-align: left;
         align-self: flex-start;
+        width: 288px;
+        margin: auto;
         li{
             margin-bottom: $spacing-medium;
             a{
@@ -55,6 +59,7 @@
             flex-direction: row;
             gap: 24px;
             justify-content: center;
+            margin: auto;
             li{
                 margin-bottom: $spacing-small;
             }
