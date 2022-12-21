@@ -1,0 +1,66 @@
+#Contact{
+    background-color: $gutsyGrapeColor;
+    color: $aspenSnowColor;
+    padding: 4rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;    
+    padding-bottom: 9rem;
+    h2{
+        margin-bottom: $spacing-large;
+    }
+    p{
+        margin-bottom: $spacing-xlarge;
+    }
+    ul{
+        list-style: none;
+        text-align: left;
+        align-self: flex-start;
+        li{
+            margin-bottom: $spacing-medium;
+            a{
+                color: $aspenSnowColor;
+                text-decoration: none;
+                cursor: pointer;
+            }
+            label{
+                font-size: 20px;
+                line-height: 24px;
+            }
+            span{
+                background-color: $aspenSnowColor;
+                border-radius: 50%;
+                width: 26px;
+                height: 26px;
+                display: inline-block;
+                text-align: center;
+                margin-right: $spacing-small;
+                img{
+                    width: 14px;
+                    margin-top: 6px;
+                }
+            }
+        }
+    }
+    footer{
+        background-color: $darkRose;
+        padding: $spacing-medium;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        ul{
+            display: flex;
+            flex-direction: row;
+            gap: 24px;
+            justify-content: center;
+            li{
+                margin-bottom: $spacing-small;
+            }
+            small{
+                font-size: 14px;
+            }
+        }
+    }
+}

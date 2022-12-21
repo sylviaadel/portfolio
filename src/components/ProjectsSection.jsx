@@ -12,7 +12,7 @@ export default function Projects() {
     ));
     return(
         <section id='Projects'>
-            <h1>Projects</h1>
+            <h2>Projects</h2>
             <p>Here are the projects I have done and those I will be working on i Novare Potential.</p>
             <ul className="projects-container">
                 {projectItems}

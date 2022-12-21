@@ -15,7 +15,7 @@ export default function Technologies() {
     ));
     return(
         <section id='Technologies'>
-            <h1>Technologies</h1>
+            <h2>Technologies</h2>
             <p>Here are the technologies that I have expert experience in.</p>
             <ul>
                 {knownTechnologyItems}
