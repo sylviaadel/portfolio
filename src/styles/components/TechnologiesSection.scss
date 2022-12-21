@@ -1,0 +1,45 @@
+#Technologies{
+    background-color: $babyAquaColor;
+    padding: 4rem 2rem;
+    color: $darkRose;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:32px;
+    p{
+        max-width: 380px;
+        text-align: center;
+    }
+    ul{
+        list-style: none;
+        display: flex;
+        flex-flow: wrap;
+        gap: 24px;
+        align-items: center;
+        justify-content: center;
+        margin: 0 -10px;
+        max-width: 580px;
+        .technology-item{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+            border-radius: 6px;
+            width:76px;
+            height:68px;
+            border:solid 1px $darkRose;
+            background-color: $aspenSnowColor;
+            color: $darkRose;
+            gap: 4px;
+            img{
+                fill: $darkRose;
+                height: 30px;
+            }
+            h3{
+                font-size: 16px;
+                font-weight: normal;
+            }
+        }
+    }
+}
