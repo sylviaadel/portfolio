@@ -19,8 +19,9 @@
         list-style: none;
         text-align: left;
         align-self: flex-start;
-        width: 288px;
+        width: 100%;
         margin: auto;
+        max-width: 380px;
         li{
             margin-bottom: $spacing-medium;
             a{
