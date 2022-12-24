@@ -9,7 +9,7 @@ export default function ProjectsModal({open, onClose}) {
         <>
             <div className="modal-overlay"></div>
             <div id='ProjectsModal' className="modal">
-                <button type="button" class="close" onClick={onClose}>
+                <button type="button" className="close" onClick={onClose}>
                     <img src={closeIcon} alt="Cross Icon to close modal" />
                 </button>
                 <img src={todoImage} alt="A girl with shopping bags getting out of a store." />
@@ -21,8 +21,8 @@ export default function ProjectsModal({open, onClose}) {
                     <li>SCSS</li>
                     <li>React</li>
                 </ul>
-                <a href="https://github.com/sylviaadel/ekia-shopping-list.git" target="_blank" className="btn-primary">Visit Website/App</a>
-                <a href="https://ekia-shopping-list.vercel.app/" target="_blank" className="btn-secondary">Git Repository</a>
+                <a href="https://github.com/sylviaadel/ekia-shopping-list.git" rel="noreferrer" target="_blank" className="btn-primary">Visit Website/App</a>
+                <a href="https://ekia-shopping-list.vercel.app/" rel="noreferrer" target="_blank" className="btn-secondary">Git Repository</a>
             </div>
         </>,
         document.getElementById('portal')
