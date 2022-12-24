@@ -5,8 +5,12 @@ import ProjectsModal from './ProjectsModal'
 export default function Projects() {
     const [isOpen, setIsOpen] = useState(false);
 
+    function openModal(){
+        setIsOpen(true)
+    }
+
     const projectItems = project.map((project) => (
-        <li key={project.id} className="project-item" onClick={() => setIsOpen(true)}>
+        <li key={project.id} className="project-item" onClick={project.isDone === true ? openModal : null}>
             <img src={`images/projects/${project.image}`} alt={project.alt} />
             <div className={project.isDone ? 'coming-soon-div hide' : "coming-soon-div"}>
                 <label>Coming Soon</label>
