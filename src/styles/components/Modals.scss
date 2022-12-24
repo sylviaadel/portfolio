@@ -20,6 +20,8 @@
     border-radius: 6px;
     padding-top: $spacing-xlarge;
     text-align: center;
+    overflow: auto;
+    max-height: calc(100vh - 40px);
     .close{
         position: absolute;
         background: transparent;
@@ -28,7 +30,7 @@
         top: 10px;
     }
     &#ProjectsModal{
-        img{
+        & > img{
             width: 70%;
             margin: 0 auto;
             margin-bottom: $spacing-medium;
@@ -63,9 +65,19 @@
             width: 100%;
         }
     }
+    &#TechnologiesModal{
+        & > img{
+            width: 111px;
+            margin-bottom: $spacing-medium;
+        }
+        p{
+            margin-bottom: $spacing-small;
+        }
+    }
     h2{
         color:$gutsyGrapeColor;
         text-align: left;
+        margin-bottom: $spacing-medium;
     }
     p{
         margin-top: $spacing-small;
