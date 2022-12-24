@@ -1,0 +1,75 @@
+.modal-overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,.5);
+    z-index: 11;
+}
+.modal{
+    position: fixed;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color: $aspenSnowColor;
+    padding: $spacing-medium;
+    z-index: 11;
+    width: 70%;
+    min-width: 327px;
+    border-radius: 6px;
+    padding-top: $spacing-xlarge;
+    text-align: center;
+    .close{
+        position: absolute;
+        background: transparent;
+        border: 0;
+        right: 10px;
+        top: 10px;
+    }
+    &#ProjectsModal{
+        img{
+            width: 70%;
+            margin: 0 auto;
+            margin-bottom: $spacing-medium;
+            max-width: 675px;
+        }
+        .tech-pills{
+            list-style: none;
+            text-align: left;
+            margin-top:  $spacing-medium;
+            margin-bottom: $spacing-medium;
+            li{
+                display: inline-block;
+                color: $darkRose;
+                border: solid 1px $darkRose;
+                border-radius: 500px;
+                font-size: 16px;
+                height: 27px;
+                line-height: 27px;
+                padding: 0 10px;
+                margin-right: $spacing-small;
+                margin-bottom: $spacing-small;
+            }
+        }
+        a{
+            text-decoration: none;
+        }
+        .btn-primary{
+            margin-bottom: $spacing-small;
+            width: 100%;
+        }
+        .btn-secondary{
+            width: 100%;
+        }
+    }
+    h2{
+        color:$gutsyGrapeColor;
+        text-align: left;
+    }
+    p{
+        margin-top: $spacing-small;
+        color: $darkRose;
+        text-align: left;
+    }
+}

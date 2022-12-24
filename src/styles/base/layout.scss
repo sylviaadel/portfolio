@@ -25,3 +25,29 @@ p{
 .hide{
     display: none!important;
 }
+
+.btn-primary{
+    background-color: $gutsyGrapeColor;
+    color: $whiteColor;
+    border-radius: 500px;
+    height: 56px;
+    line-height: 56px;
+    font-size: 20px;
+    font-weight: bold;
+    border: solid 1px $gutsyGrapeColor;
+    padding: 0 20px;
+    display: inline-block;
+}
+
+.btn-secondary{
+    background-color: $aspenSnowColor;
+    color: $gutsyGrapeColor;
+    border-radius: 500px;
+    height: 56px;
+    line-height: 56px;
+    font-size: 20px;
+    font-weight: bold;
+    border: solid 1px $gutsyGrapeColor;
+    padding: 0 20px;
+    display: inline-block;
+}
