@@ -1,9 +1,8 @@
-import ReactDom from "react-dom";
-import todoImage from './../assets/images/todoImage.png'
-import closeIcon from './../assets/images/close.svg'
 import { useEffect } from "react";
+import ReactDom from "react-dom";
+import closeIcon from './../assets/images/close.svg'
 
-export default function ProjectsModal({open, onClose}) {
+export default function ProjectsModal({open, onClose, project}) {
 
     useEffect(() => {
         if (open) document.body.style.overflow = 'hidden'
@@ -19,17 +18,16 @@ export default function ProjectsModal({open, onClose}) {
                 <button type="button" className="close" onClick={onClose}>
                     <img src={closeIcon} alt="Cross Icon to close modal" />
                 </button>
-                <img src={todoImage} alt="A girl with shopping bags getting out of a store." />
-                <h2>Todo List</h2>
-                <p>In this project you will be able to create a todo list with all the furniture you want to buy. 
-                    You will be asked to add item name and item price which will be added in a list where you can mark it as done if completed.</p>
+                <img src={`images/projects/${project.image}`} alt={project.alt}/>
+                <h2>{project.name}</h2>
+                <p>{project.desc}</p>
                 <ul className="tech-pills">
-                    <li>HTML</li>
-                    <li>SCSS</li>
-                    <li>React</li>
+                    {project.technologies.map((tech) => (
+                        <li>{tech.name}</li>
+                    ))}
                 </ul>
-                <a href="https://github.com/sylviaadel/ekia-shopping-list.git" rel="noreferrer" target="_blank" className="btn-primary">Visit Website/App</a>
-                <a href="https://ekia-shopping-list.vercel.app/" rel="noreferrer" target="_blank" className="btn-secondary">Git Repository</a>
+                <a href={project.appLink} rel="noreferrer" target="_blank" className="btn-primary">Visit Website/App</a>
+                <a href={project.gitLink} rel="noreferrer" target="_blank" className="btn-secondary">Git Repository</a>
             </div>
         </>,
         document.getElementById('portal')
