@@ -4,15 +4,21 @@ import TechnologiesModal from './TechnologiesModal'
 
 export default function Technologies() {
     const [isOpen, setIsOpen] = useState(false);
+    const [modalTech, setModalTech] = useState({});
+
+    function initModal(tech){
+        setIsOpen(true);
+        setModalTech(tech);
+    }
 
     const knownTechnologyItems = technology.knownTech.map((technology) => (
-        <li key={technology.id} className="technology-item" onClick={() => setIsOpen(true)}>
+        <li key={technology.id} className="technology-item" onClick={() => initModal(technology)}>
             <img src={`images/technologies/${technology.image}`} alt={technology.alt} />
             <h3>{technology.name}</h3>
         </li>
     ));
     const newTechnologyItems = technology.newTech.map((technology) => (
-        <li key={technology.id} className="technology-item" onClick={() => setIsOpen(true)}>
+        <li key={technology.id} className="technology-item" onClick={() => initModal(technology)}>
             <img src={`images/technologies/${technology.image}`} alt={technology.alt} />
             <h3>{technology.name}</h3>
         </li>
@@ -30,7 +36,7 @@ export default function Technologies() {
                     {newTechnologyItems}
                 </ul>
             </section>
-            <TechnologiesModal open={isOpen} onClose={() => setIsOpen(false)} />
+            <TechnologiesModal tech={modalTech} open={isOpen} onClose={() => setIsOpen(false)} />
         </>
     );
 }

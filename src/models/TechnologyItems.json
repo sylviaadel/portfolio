@@ -4,19 +4,22 @@
       "id": 1,
       "name": "HTML",
       "image": "html-icon.svg",
-      "alt": "HTML Logo"
+      "alt": "HTML Logo",
+      "desc": "I used HTML in all projects to build the layout of all apps, where I start the project from scratch, add HTML elemnts, meta tags for responsive designs along with main titles. I HTML to build pages with a component that reflect the main functionality to be a web application using the html events to trigger different functionality according to user actions."
     },
     {
       "id": 2,
       "name": "CSS 3",
       "image": "css3-icon.svg",
-      "alt": "CSS 3 Logo"
+      "alt": "CSS 3 Logo",
+      "desc": "I used css to add all styles for the HTML elements in all projects, either inline, interal or external files. I was the responsible for adding the styles and fixing all UI issues on all browsers."
     },
     {
       "id": 3,
       "name": "SASS",
       "image": "sass-icon.svg",
-      "alt": "SASS Logo"
+      "alt": "SASS Logo",
+      "desc": "I uses SASS in all new projects using React, angular or vue. Adding styles, variables, mixins, nesting, inheritance and operators. I made themeing using SASS in an angular project."
     }
   ],
   "newTech":[
@@ -24,37 +27,43 @@
       "id": 4,
       "name": "React",
       "image": "react-icon.svg",
-      "alt": "React Icon"
+      "alt": "React Icon",
+      "desc": "I created React projects from scratch, build the components and linking them together, used routing and state management that helps sharing props accross different components."
     },
     {
       "id": 5,
       "name": "Typescript",
       "image": "typescript-icon.svg",
-      "alt": "Typescript Logo"
+      "alt": "Typescript Logo",
+      "desc": "I used Typescript that apply the object oriented programming concept in all new react projects."
     },
     {
       "id": 6,
       "name": "Javascript",
       "image": "javascript-icon.svg",
-      "alt": "Javascript Logo"
+      "alt": "Javascript Logo",
+      "desc": "I used Javascript to make the Dom elements function with a proper way. I used javascript along ago with jquery in toggling classes and adding basic functionality for components."
     },
     {
       "id": 7,
       "name": "Github",
       "image": "github-icon.svg",
-      "alt": "Github Logo"
+      "alt": "Github Logo",
+      "desc": "I used Github as a versioning source control. I added all my private projects on github, added collaborators and made projects public. Created branches for defining project into managed milestones along with descriptive comments."
     },
     {
       "id": 8,
       "name": "Figma",
       "image": "figma-icon.svg",
-      "alt": "Figma Logo"
+      "alt": "Figma Logo",
+      "desc": "I used Figma to design the look and feel for the application. I learnt to add layers, react components, frames and draw icons. I learnt also to extract icons and import images. I made mobile and desktop designs. "
     },
     {
       "id": 9,
       "name": "Firebase",
       "image": "firebase-icon.svg",
-      "alt": "Firebase Logo"
+      "alt": "Firebase Logo",
+      "desc": "I used Firebase to deploy projects on cloud."
     }
   ]
 }
