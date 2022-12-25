@@ -1,8 +1,15 @@
 import ReactDom from "react-dom";
 import closeIcon from './../assets/images/close.svg'
 import todoImage from './../assets/images/todoImage.png'
+import { useEffect } from "react";
 
 export default function TechnologiesModal({open, onClose}) {
+    
+    useEffect(() => {
+        if (open) document.body.style.overflow = 'hidden'
+        else document.body.style.overflow = 'unset';
+    }, [open]);
+
     if (!open) return null
 
     return ReactDom.createPortal(
