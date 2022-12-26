@@ -13,7 +13,7 @@ export default function Technologies() {
 
     const knownTechnologyItems = technology.knownTech.map((technology) => (
         <li key={technology.id} className="technology-item" onClick={() => initModal(technology)}>
-            <img src={`images/technologies/${technology.image}`} alt={technology.alt} />
+            <img src={`images/Technologies/${technology.image}`} alt={technology.alt} />
             <h3>{technology.name}</h3>
         </li>
     ));
