@@ -12,7 +12,7 @@
       "name": "CSS 3",
       "image": "css3-icon.svg",
       "alt": "CSS 3 Logo",
-      "desc": "I used css to add all styles for the HTML elements in all projects, either inline, interal or external files. I was the responsible for adding the styles and fixing all UI issues on all browsers."
+      "desc": "I used CSS to add all styles for the HTML elements in all projects, either inline, interal or external files. I am always responsible for adding the styles and fixing all UI issues on all browsers."
     },
     {
       "id": 3,
@@ -63,7 +63,7 @@
       "name": "Firebase",
       "image": "firebase-icon.svg",
       "alt": "Firebase Logo",
-      "desc": "I used Firebase to deploy projects on cloud."
+      "desc": "I used Firebase to deploy projects on cloud. I know how to install, initialize, build and deploy projects."
     }
   ]
 }

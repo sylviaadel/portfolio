@@ -16,7 +16,7 @@
     background-color: $aspenSnowColor;
     padding: $spacing-medium;
     z-index: 11;
-    width: 70%;
+    width: 65%;
     min-width: 327px;
     border-radius: 6px;
     padding-top: $spacing-xlarge;
@@ -86,6 +86,7 @@
         margin-top: $spacing-small;
         color: $darkRose;
         text-align: left;
+        text-align: justify;
     }
 }
 
