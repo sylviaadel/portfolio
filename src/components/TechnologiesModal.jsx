@@ -18,7 +18,7 @@ export default function TechnologiesModal({open, onClose, tech}) {
                 <button type="button" className="close" onClick={onClose}>
                     <img src={closeIcon} alt="Cross Icon to close modal" />
                 </button>
-                <img src={`images/technologies/${tech.image}`} alt={tech.alt} />
+                <img src={`images/Technologies/${tech.image}`} alt={tech.alt} />
                 <h2>{tech.name}</h2>
                 <p>{tech.desc}</p>
             </div>

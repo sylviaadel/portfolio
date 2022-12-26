@@ -18,7 +18,7 @@ export default function ProjectsModal({open, onClose, project}) {
                 <button type="button" className="close" onClick={onClose}>
                     <img src={closeIcon} alt="Cross Icon to close modal" />
                 </button>
-                <img src={`images/projects/${project.image}`} alt={project.alt}/>
+                <img src={`images/Projects/${project.image}`} alt={project.alt}/>
                 <h2>{project.name}</h2>
                 <p>{project.desc}</p>
                 <ul className="tech-pills">
