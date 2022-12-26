@@ -29,9 +29,9 @@ export default function Contact() {
             </ul>
             <footer>
                 <ul>
-                    <li><a target='_blank' rel="noreferrer" href='https://www.linkedin.com/in/sylvia-tadross-710b9597'><img src={linkedInIcon} alt="LinkedinIcon" /></a></li>
-                    <li><a target='_blank' rel="noreferrer" href='https://www.instagram.com/sylvia.adel.50/'><img src={instagramIcon} alt="Instagram Icon" /></a></li>
-                    <li><a target='_blank' rel="noreferrer" href='https://github.com/sylviaadel'><img src={githubIcon} alt="Github Icon" /></a></li>
+                    <li><a target='_blank' rel="noreferrer" href='https://www.linkedin.com/in/sylvia-tadross-710b9597'><img src={linkedInIcon} alt="Linkedin Icon to link to Linkedin profile." /></a></li>
+                    <li><a target='_blank' rel="noreferrer" href='https://www.instagram.com/sylvia.adel.50/'><img src={instagramIcon} alt="Instagram Icon to link to instagram account." /></a></li>
+                    <li><a target='_blank' rel="noreferrer" href='https://github.com/sylviaadel'><img src={githubIcon} alt="Github Icon to link to github account." /></a></li>
                 </ul>
                 <small>© 2021 • Sylvia Tadross</small>
             </footer>
