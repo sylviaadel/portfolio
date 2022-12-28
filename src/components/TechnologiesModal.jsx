@@ -19,8 +19,10 @@ export default function TechnologiesModal({open, onClose, tech}) {
                     <img src={closeIcon} alt="Cross Icon to close modal" />
                 </button>
                 <img src={`images/Technologies/${tech.image}`} alt={tech.alt} />
-                <h2>{tech.name}</h2>
-                <p>{tech.desc}</p>
+                <div>
+                    <h2>{tech.name}</h2>
+                    <p>{tech.desc}</p>
+                </div>
             </div>
         </>,
         document.getElementById('portal')

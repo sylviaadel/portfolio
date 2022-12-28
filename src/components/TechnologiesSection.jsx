@@ -26,15 +26,19 @@ export default function Technologies() {
     return(
         <>
             <section id='Technologies'>
-                <h2>Technologies</h2>
-                <p>Here are the technologies that I have expert experience in.</p>
-                <ul>
-                    {knownTechnologyItems}
-                </ul>
-                <p>And here are the technologies that I am still learning in Novare.</p>
-                <ul className="technologies-container">
-                    {newTechnologyItems}
-                </ul>
+                <div>
+                    <h2>Technologies</h2>
+                    <p>Here are the technologies that I have expert experience in.</p>
+                    <ul>
+                        {knownTechnologyItems}
+                    </ul>
+                </div>
+                <div>
+                    <p>And here are the technologies that I am still learning in Novare.</p>
+                    <ul className="technologies-container">
+                        {newTechnologyItems}
+                    </ul>
+                </div>
             </section>
             <TechnologiesModal tech={modalTech} open={isOpen} onClose={() => setIsOpen(false)} />
         </>

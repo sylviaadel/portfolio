@@ -19,7 +19,7 @@
       "name": "SASS",
       "image": "sass-icon.svg",
       "alt": "SASS Logo",
-      "desc": "I uses SASS in all new projects using React, angular or vue. Adding styles, variables, mixins, nesting, inheritance and operators. I made themeing using SASS in an angular project."
+      "desc": "I used SASS in all new projects using React, angular or vue. Adding styles, variables, mixins, nesting, inheritance and operators. I made themeing using SASS in an angular project."
     }
   ],
   "newTech":[
@@ -56,14 +56,14 @@
       "name": "Figma",
       "image": "figma-icon.svg",
       "alt": "Figma Logo",
-      "desc": "I used Figma to design the look and feel for the application. I learnt to add layers, react components, frames and draw icons. I learnt also to extract icons and import images. I made mobile and desktop designs. "
+      "desc": "I used Figma to design the look and feel for the application. I learned to add layers, react components, frames and draw icons. I learned also to extract icons and import images. I applied that on both mobile and desktop designs. "
     },
     {
       "id": 9,
       "name": "Firebase",
       "image": "firebase-icon.svg",
       "alt": "Firebase Logo",
-      "desc": "I used Firebase to deploy projects on cloud. I know how to install, initialize, build and deploy projects."
+      "desc": "I used Firebase to deploy projects on cloud. I learned how to install, initialize, build and deploy projects."
     }
   ]
 }

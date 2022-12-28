@@ -7,6 +7,7 @@
     align-items: center;
     position: relative;    
     padding-bottom: 9rem;
+    text-align: center;
     h2{
         margin-bottom: $spacing-large;
     }
@@ -66,6 +67,67 @@
             }
             small{
                 font-size: 14px;
+            }
+        }
+    }
+}
+
+@media (min-device-width: 860px) {
+    #Contact{
+        p{
+            max-width: 540px;
+        }
+        ul{
+            max-width: 540px;
+            li {
+                span{
+                    width: 34px;
+                    height: 34px;
+                    img{
+                        width: 20px;
+                        margin-top: 8px;
+                    }
+                }
+                label{
+                    font-size: $spacing-large;
+                    letter-spacing: 3px;
+                }
+            }
+        }
+        footer{
+            ul{
+                li{
+                    img{
+                        height: 30px;
+                    }
+                }
+            }
+            small{
+                font-size: 18px;
+            }
+        }
+    }
+}
+
+@media (min-device-width: 1200px) {
+    #Contact{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 60px;
+        text-align: left;
+        h2{
+            margin-bottom: $spacing-xlarge;
+        }
+        p{
+            text-align: left;
+        }
+        ul{
+            margin: $spacing-large 0;
+            align-self: end;
+            li label{
+                font-size: $spacing-large;
+                letter-spacing: 3px;
             }
         }
     }

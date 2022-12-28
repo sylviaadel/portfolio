@@ -98,3 +98,34 @@
       opacity: 1;
     }
 }
+
+@media (min-device-width: 1200px){
+    .modal{
+        padding: $spacing-large;
+        max-height: calc(100vh - 100px);
+        display: flex;
+        gap:$spacing-xlarge;
+        &#ProjectsModal{
+            & > img{
+                max-width: 500px;
+                height: fit-content;
+                margin: 0;
+                align-self: center;
+            }
+            & > div{
+                width: 100%;
+            }
+            .btn-secondary{
+                margin-bottom: 20px;
+            }
+        }
+        &#TechnologiesModal{
+            & > img{
+                width: 165px;
+            }
+            & > div{
+                width: 75%;
+            }
+        }
+    }
+}

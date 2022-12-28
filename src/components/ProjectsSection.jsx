@@ -28,8 +28,10 @@ export default function Projects() {
     return(
         <>
             <section id='Projects'>
-                <h2>Projects</h2>
-                <p>Here are the projects I have done and those I will be working on i Novare Potential.</p>
+                <div>
+                    <h2>Projects</h2>
+                    <p>Here are the projects I have done and those I will be working on i Novare Potential.</p>
+                </div>
                 <ul className="projects-container">
                     {projectItems}
                 </ul>

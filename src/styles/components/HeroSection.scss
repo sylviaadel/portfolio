@@ -18,3 +18,15 @@
         color: $gutsyGrapeColor;
     }
 }
+
+@media (min-device-width: 860px) {
+    #Hero{
+        gap: $spacing-xlarge;
+        h1{
+            max-width: 620px;
+        }
+        img{
+            width: 275px;
+        }
+    }
+}
