@@ -13,7 +13,7 @@ export default function ProjectsModal({open, onClose, project}) {
 
     return ReactDom.createPortal(
         <>
-            <div className="modal-overlay"></div>
+            <div className="modal-overlay" onClick={onClose}></div>
             <div id='ProjectsModal' className="modal">
                 <button type="button" className="close" onClick={onClose}>
                     <img src={closeIcon} alt="Cross Icon to close modal" />
