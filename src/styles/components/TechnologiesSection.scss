@@ -54,6 +54,13 @@
     }
 }
 
+@media (min-device-width: 860px){
+    #Technologies{
+        p{
+            max-width: 450px;
+        }
+    }
+}
 
 @media (min-device-width: 1200px){
     #Technologies{

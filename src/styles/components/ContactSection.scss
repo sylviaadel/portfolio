@@ -74,6 +74,7 @@
 
 @media (min-device-width: 860px) {
     #Contact{
+        gap: 0;
         p{
             max-width: 540px;
         }
@@ -89,7 +90,7 @@
                     }
                 }
                 label{
-                    font-size: $spacing-large;
+                    font-size: 28px;
                     letter-spacing: 3px;
                 }
             }
@@ -126,7 +127,7 @@
             margin: $spacing-large 0;
             align-self: end;
             li label{
-                font-size: $spacing-large;
+                font-size: 28px;
                 letter-spacing: 3px;
             }
         }
