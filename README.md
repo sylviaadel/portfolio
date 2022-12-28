@@ -1,6 +1,6 @@
 ## ReactJS Portfolio
 
-An application used to reate a todo list with all the furniture you want to buy, built with React, JavaScript and SASS.
+In this application you can check my whole portfolio, you can check my title, where am I born, where do I live, more information about me, my projects, my technologies and all my contact information.
 
 ## Installation and Setup Instructions
 
