@@ -6,10 +6,20 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     gap:32px;
+    & > div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    h2{
+        margin-bottom: $spacing-large;
+    }
     p{
         max-width: 380px;
         text-align: center;
+        margin-bottom: $spacing-xlarge;
     }
     ul{
         list-style: none;
@@ -40,6 +50,44 @@
                 font-size: 16px;
                 font-weight: normal;
             }
+        }
+    }
+}
+
+
+@media (min-device-width: 1200px){
+    #Technologies{
+        text-align: left;
+        gap: $spacing-xlarge;
+        padding: 5rem 2rem;
+        & > div{
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            max-width: 1145px;
+            gap: 60px;
+        }
+        h2{
+            flex: 1 0 100%;
+            margin-bottom: -$spacing-large;
+        }
+        ul{
+            gap: $spacing-xlarge;
+            .technology-item{
+                width: 160px;
+                height:140px;
+                img{
+                    height:55px
+                }
+                h3{
+                    font-size: 28px;
+                    margin-top: $spacing-small;
+                }
+            }
+        }
+        p{
+            max-width: 525px;
+            text-align: left;
         }
     }
 }

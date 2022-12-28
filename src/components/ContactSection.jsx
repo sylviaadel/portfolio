@@ -7,8 +7,10 @@ import githubIcon from './../assets/images/github-icon.svg';
 export default function Contact() {
     return (
         <section id='Contact'>
-            <h2>Contact</h2>
-            <p>Here is my contact information if you want to get in contact with me,  I will really be so glad to hear from you.</p>
+            <div>
+                <h2>Contact</h2>
+                <p>Here is my contact information if you want to get in contact with me,  I will really be so glad to hear from you.</p>
+            </div>
             <ul>
                 <li>
                     <a href="mailto:sylvia.adel.emil@gmail.com">

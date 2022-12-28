@@ -30,8 +30,40 @@
             }
         }
         .logo{
-                height: 45px;
-                color: $darkRose;
+            height: 45px;
+            color: $darkRose;
+        }
+        h3{
+            display: none;
+        }
+    }
+}
+
+@media (min-device-width: 860px) {
+    .navbar{
+        background-color: $aspenSnowColor;
+        height: 80px;
+        ul.nav-links{
+            display: block;
+            padding: 0;
+            width:95%;
+            text-align: right;
+            & > a{
+                position: absolute;
+                top: 20px;
+                display: flex;
+                gap: $spacing-medium;
+                text-decoration: none;
+                h3{
+                    display: inline-block;
+                    color: $darkRose;
+                }
+            }
+            li{
+                margin-left: $spacing-large;
+                font-size: 28px;
+                margin-top: 3px;
+            }
         }
     }
 }
