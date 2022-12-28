@@ -20,46 +20,67 @@
       "image": "sass-icon.svg",
       "alt": "SASS Logo",
       "desc": "I used SASS in all new projects using React, angular or vue. Adding styles, variables, mixins, nesting, inheritance and operators. I made themeing using SASS in an angular project."
+    },
+    {
+      "id": 4,
+      "name": "Adobe XD",
+      "image": "XD-icon.svg",
+      "alt": "Adobe XD Logo",
+      "desc": "I used XD to slice webpages, extract images, colors and font styles to apply the needed styles to the projects."
+    },
+    {
+      "id": 5,
+      "name": "Photoshop",
+      "image": "PSD-icon.svg",
+      "alt": "Adobe Photoshop Logo",
+      "desc": "I used Photoshop to slice webpages, design simple logos, extract all images, colors and font styles. I used Photoshop to optmize images to add them to webpages."
+    },
+    {
+      "id": 6,
+      "name": "Angular",
+      "image": "angular-icon.svg",
+      "alt": "Angular Logo",
+      "desc": "I created web applications using Angular from scratch, add all components and linking them together, add functionality and all styles in scss."
     }
   ],
   "newTech":[
     {
-      "id": 4,
+      "id": 7,
       "name": "React",
       "image": "react-icon.svg",
       "alt": "React Icon",
       "desc": "I created React projects from scratch, build the components and linking them together, used routing and state management that helps sharing props accross different components."
     },
     {
-      "id": 5,
+      "id": 8,
       "name": "Typescript",
       "image": "typescript-icon.svg",
       "alt": "Typescript Logo",
       "desc": "I used Typescript that apply the object oriented programming concept in all new react projects."
     },
     {
-      "id": 6,
+      "id": 9,
       "name": "Javascript",
       "image": "javascript-icon.svg",
       "alt": "Javascript Logo",
       "desc": "I used Javascript to make the Dom elements function with a proper way. I used javascript along ago with jquery in toggling classes and adding basic functionality for components."
     },
     {
-      "id": 7,
+      "id": 10,
       "name": "Github",
       "image": "github-icon.svg",
       "alt": "Github Logo",
       "desc": "I used Github as a versioning source control. I added all my private projects on github, added collaborators and made projects public. Created branches for defining project into managed milestones along with descriptive comments."
     },
     {
-      "id": 8,
+      "id": 11,
       "name": "Figma",
       "image": "figma-icon.svg",
       "alt": "Figma Logo",
       "desc": "I used Figma to design the look and feel for the application. I learned to add layers, react components, frames and draw icons. I learned also to extract icons and import images. I applied that on both mobile and desktop designs. "
     },
     {
-      "id": 9,
+      "id": 12,
       "name": "Firebase",
       "image": "firebase-icon.svg",
       "alt": "Firebase Logo",
