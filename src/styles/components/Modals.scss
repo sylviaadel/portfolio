@@ -106,6 +106,7 @@
         display: flex;
         gap:$spacing-xlarge;
         &#ProjectsModal{
+            width: 70%;
             & > img{
                 max-width: 500px;
                 height: fit-content;
@@ -120,6 +121,8 @@
             }
         }
         &#TechnologiesModal{
+            width: 50%;
+            min-width: 765px;
             & > img{
                 width: 165px;
             }
