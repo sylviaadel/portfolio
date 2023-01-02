@@ -3,7 +3,7 @@
     color: $gutsyGrapeColor;
     padding: 4rem 2rem;
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
     text-align: center;
     h1{
@@ -16,13 +16,13 @@
         text-align: center;
     }
     img{
-        margin: 0 auto;
+        margin: 0 auto $spacing-large;
     }
 }
 
 @media (min-device-width: 860px) {
     #About{
-        flex-direction: row-reverse;
+        flex-direction: row;
         justify-content: center;
         gap: 32px;
         text-align: left;
