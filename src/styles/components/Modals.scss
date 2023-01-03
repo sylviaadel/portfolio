@@ -99,7 +99,7 @@
     }
 }
 
-@media (min-device-width: 1200px){
+@media (min-width: 1200px){
     .modal{
         padding: $spacing-large;
         max-height: calc(100vh - 100px);

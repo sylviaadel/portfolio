@@ -56,7 +56,7 @@
     }
 }
 
-@media (min-device-width: 860px) {
+@media (min-width: 860px) {
     #Projects{
         h2{
             margin-bottom: $spacing-xlarge;
@@ -72,7 +72,7 @@
     }
 }
 
-@media (min-device-width: 1200px){
+@media (min-width: 1200px){
     #Projects{
         flex-direction: row;
         text-align: left;

@@ -54,7 +54,7 @@
     }
 }
 
-@media (min-device-width: 860px){
+@media (min-width: 860px){
     #Technologies{
         p{
             max-width: 450px;
@@ -62,7 +62,7 @@
     }
 }
 
-@media (min-device-width: 1200px){
+@media (min-width: 1200px){
     #Technologies{
         text-align: left;
         gap: $spacing-xlarge;
