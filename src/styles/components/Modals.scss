@@ -1,134 +1,132 @@
-.modal-overlay{
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0,0,0,.5);
-    z-index: 11;
-    animation: fadeIn .1s ease-in;
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 11;
+  animation: fadeIn 0.1s ease-in;
 }
-.modal{
-    position: fixed;
-    top: 50%;
-    left:50%;
-    transform: translate(-50%,-50%);
-    background-color: $aspenSnowColor;
-    padding: $spacing-large;
-    z-index: 11;
-    width: 65%;
-    min-width: 327px;
-    border-radius: 6px;
-    padding-top: $spacing-xlarge;
-    text-align: center;
-    overflow: auto;
-    max-height: calc(100vh - 40px);
-    animation: fadeIn .3s ease-in;
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: $aspenSnowColor;
+  padding: $spacing-large;
+  z-index: 11;
+  width: 65%;
+  min-width: 327px;
+  border-radius: 6px;
+  padding-top: $spacing-xlarge;
+  text-align: center;
+  overflow: auto;
+  max-height: calc(100vh - 40px);
+  animation: fadeIn 0.3s ease-in;
 
-    .close{
-        position: absolute;
-        background: transparent;
-        border: 0;
-        right: 15px;
-        top: 15px;
+  .close {
+    position: absolute;
+    background: transparent;
+    border: 0;
+    right: 15px;
+    top: 15px;
+  }
+  &#ProjectsModal {
+    & > img {
+      width: 70%;
+      margin: 0 auto;
+      margin-bottom: $spacing-medium;
+      max-width: 200px;
     }
-    &#ProjectsModal{
-        & > img{
-            width: 70%;
-            margin: 0 auto;
-            margin-bottom: $spacing-medium;
-            max-width: 200px;
-        }
-        .tech-pills{
-            list-style: none;
-            text-align: left;
-            margin-top:  $spacing-medium;
-            margin-bottom: $spacing-medium;
-            li{
-                display: inline-block;
-                color: $darkRose;
-                border: solid 1px $darkRose;
-                border-radius: 500px;
-                font-size: 16px;
-                height: 27px;
-                line-height: 27px;
-                padding: 0 10px;
-                margin-right: $spacing-small;
-                margin-bottom: $spacing-small;
-            }
-        }
-        a{
-            text-decoration: none;
-        }
-        .btn-primary{
-            margin-bottom: $spacing-small;
-            width: 100%;
-        }
-        .btn-secondary{
-            width: 100%;
-        }
-    }
-    &#TechnologiesModal{
-        & > img{
-            width: 111px;
-            margin-bottom: $spacing-medium;
-        }
-        p{
-            margin-bottom: $spacing-small;
-        }
-    }
-    h2{
-        color:$gutsyGrapeColor;
-        text-align: left;
-        margin-bottom: $spacing-medium;
-    }
-    p{
-        margin-top: $spacing-small;
+    .tech-pills {
+      list-style: none;
+      text-align: left;
+      margin-top: $spacing-medium;
+      margin-bottom: $spacing-medium;
+      li {
+        display: inline-block;
         color: $darkRose;
-        text-align: left;
-        text-align: justify;
+        border: solid 1px $darkRose;
+        border-radius: 500px;
+        font-size: 16px;
+        height: 27px;
+        line-height: 27px;
+        padding: 0 10px;
+        margin-right: $spacing-small;
+        margin-bottom: $spacing-small;
+      }
     }
+    a {
+      text-decoration: none;
+    }
+    .btn-primary {
+      margin-bottom: $spacing-small;
+      width: 100%;
+    }
+    .btn-secondary {
+      width: 100%;
+    }
+  }
+  &#TechnologiesModal {
+    & > img {
+      width: 111px;
+      margin-bottom: $spacing-medium;
+    }
+    p {
+      margin-bottom: $spacing-small;
+    }
+  }
+  h2 {
+    color: $gutsyGrapeColor;
+    text-align: left;
+    margin-bottom: $spacing-medium;
+  }
+  p {
+    margin-top: $spacing-small;
+    color: $darkRose;
+    text-align: left;
+    text-align: justify;
+  }
 }
 
 @keyframes fadeIn {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
-@media (min-width: 1200px){
-    .modal{
-        padding: $spacing-large;
-        max-height: calc(100vh - 100px);
-        display: flex;
-        gap:$spacing-xlarge;
-        &#ProjectsModal{
-            width: 70%;
-            & > img{
-                max-width: 500px;
-                height: fit-content;
-                margin: 0;
-                align-self: center;
-            }
-            & > div{
-                width: 100%;
-            }
-            .btn-secondary{
-                margin-bottom: 20px;
-            }
-        }
-        &#TechnologiesModal{
-            width: 50%;
-            min-width: 765px;
-            & > img{
-                width: 165px;
-            }
-            & > div{
-                width: 75%;
-            }
-        }
+@media (min-width: 1200px) {
+  .modal {
+    padding: $spacing-large;
+    max-height: calc(100vh - 100px);
+    display: flex;
+    gap: $spacing-xlarge;
+    &#ProjectsModal {
+      width: 70%;
+      & > img {
+        max-width: 500px;
+        height: fit-content;
+        margin: 0;
+        align-self: center;
+      }
+      & > div {
+        width: 100%;
+      }
+      .btn-secondary {
+        margin-bottom: 20px;
+      }
     }
+    &#TechnologiesModal {
+      width: 50%;
+      display: block;
+      padding: 3rem;
+      & > img {
+        width: 165px;
+      }
+    }
+  }
 }
