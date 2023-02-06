@@ -8,6 +8,7 @@
     "desc": "In this project you will be able to create a todo list with all the furniture you want to buy. You will be asked to add item name and item price which will be added in a list where you can mark it as done if completed.",
     "gitLink": "https://github.com/sylviaadel/ekia-shopping-list.git",
     "appLink": "https://ekia-shopping-list.vercel.app/",
+    "appScreenshot": "eika_screenshot.png",
     "technologies": [
       {
         "name": "HTMl"
@@ -35,6 +36,7 @@
     "desc": "In this project you can check my whole portfolio, you can check my title, where am I born, where do I live, more information about me, my projects, my technologies and all my contact information.",
     "gitLink": "https://github.com/sylviaadel/portfolio.git",
     "appLink": "https://portfolio-571e7.web.app",
+    "appScreenshot": "portfolio_screenshot.png",
     "technologies": [
       {
         "name": "HTMl"
@@ -64,26 +66,62 @@
     "name": "Vegan Restaurant",
     "image": "vegan-res.png",
     "alt": "A vegan dish with vegtables.",
-    "isDone": false,
-    "desc": "",
-    "gitLink": "",
-    "appLink": "",
-    "technologies": [{
-      "name": ""
-      }]
+    "isDone": true,
+    "desc": "In this application you can check information about Veganhuset restaurant, all dishes, desserts and drinks. Also you can contact us and reserve a table anytime.",
+    "gitLink": "https://github.com/sylviaadel/vegan-restaurant.git",
+    "appLink": "https://veganhuset-fc31a.firebaseapp.com/",
+    "appScreenshot": "vegan-res_screenshot.png",
+    "technologies": [
+      {
+        "name": "HTMl"
+      },
+      {
+        "name": "SASS"
+      },
+      {
+        "name": "React"
+      },
+      {
+        "name": "Github"
+      },
+      {
+        "name": "Figma"
+      },
+      {
+        "name": "Firebase"
+      }
+    ]
   },
   {
     "id": 4,
     "name": "Package Tracker",
     "image": "package-tracker.png",
     "alt": "Boxes of packages",
-    "isDone": false,
-    "desc": "",
-    "gitLink": "",
-    "appLink": "",
-    "technologies": [{
-      "name": ""
-      }]
+    "isDone": true,
+    "desc": "In this application you can check all your packages and check all details about it, also you can track your package and check exact location on map.",
+    "gitLink": "https://github.com/sylviaadel/package-tracker.git",
+    "appLink": "https://instapacket-tracker.web.app/",
+    "appScreenshot": "instapacket_screenshot.png",
+    "technologies": [
+      {
+        "name": "HTMl"
+      },
+      {
+        "name": "SASS"
+      },
+      {
+        "name": "React"
+      },
+      {
+        "name": "Github"
+      },
+      {
+        "name": "Figma"
+      },
+      {
+        "name": "Firebase"
+      }
+    ]
   },
   {
     "id": 5,
@@ -94,9 +132,12 @@
     "desc": "",
     "gitLink": "",
     "appLink": "",
-    "technologies": [{
-      "name": ""
-      }]
+    "appScreenshot": "",
+    "technologies": [
+      {
+        "name": ""
+      }
+    ]
   },
   {
     "id": 6,
@@ -107,9 +148,12 @@
     "desc": "",
     "gitLink": "",
     "appLink": "",
-    "technologies": [{
-      "name": ""
-      }]
+    "appScreenshot": "",
+    "technologies": [
+      {
+        "name": ""
+      }
+    ]
   },
   {
     "id": 7,
@@ -120,9 +164,12 @@
     "desc": "",
     "gitLink": "",
     "appLink": "",
-    "technologies": [{
-      "name": ""
-      }]
+    "appScreenshot": "",
+    "technologies": [
+      {
+        "name": ""
+      }
+    ]
   },
   {
     "id": 8,
@@ -133,8 +180,11 @@
     "desc": "",
     "gitLink": "",
     "appLink": "",
-    "technologies": [{
-      "name": ""
-      }]
+    "appScreenshot": "",
+    "technologies": [
+      {
+        "name": ""
+      }
+    ]
   }
 ]
