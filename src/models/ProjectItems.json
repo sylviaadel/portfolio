@@ -128,14 +128,32 @@
     "name": "TTD Todo",
     "image": "ttd-todo.png",
     "alt": "Note book for a todo list",
-    "isDone": false,
-    "desc": "",
-    "gitLink": "",
-    "appLink": "",
+    "isDone": true,
+    "desc": "In this project you will be able to create a todo list with all the furniture you want to buy. You will be asked to add item name and item price which will be added in a list where you can mark it as done if completed. Along with adding test cases needed.",
+    "gitLink": "https://github.com/sylviaadel/eika-shopping-list.git",
+    "appLink": "https://ekia-shopping-list.web.app/",
     "appScreenshot": "",
     "technologies": [
       {
-        "name": ""
+        "name": "HTMl"
+      },
+      {
+        "name": "SASS"
+      },
+      {
+        "name": "React"
+      },
+      {
+        "name": "Typescript"
+      },
+      {
+        "name": "Github"
+      },
+      {
+        "name": "Figma"
+      },
+      {
+        "name": "Firebase"
       }
     ]
   },
