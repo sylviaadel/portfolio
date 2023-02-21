@@ -23,7 +23,7 @@ export default function ProjectsModal({ open, onClose, project }) {
           <p>{project.desc}</p>
           <ul className="tech-pills">
             {project.technologies.map((tech) => (
-              <li>{tech.name}</li>
+              <li key={tech.length}>{tech.name}</li>
             ))}
           </ul>
           <a
