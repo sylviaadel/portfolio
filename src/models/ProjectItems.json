@@ -144,9 +144,6 @@
         "name": "React"
       },
       {
-        "name": "Typescript"
-      },
-      {
         "name": "Github"
       },
       {
@@ -162,14 +159,29 @@
     "name": "BBQ Restaurant",
     "image": "bbq-res.png",
     "alt": "A barbeque image",
-    "isDone": false,
-    "desc": "",
-    "gitLink": "",
-    "appLink": "",
+    "isDone": true,
+    "desc": "In this application you can check information about Grill Bar restaurant, all categories and menu items. As an admin you can be able to add a new category, and a new product and delete a category. Also you can contact us and reserve a table anytime. To check admin page please open https://grill-bar-restaurant.web.app/admin",
+    "gitLink": "https://github.com/sylviaadel/bbq-restaurant.git",
+    "appLink": "https://grill-bar-restaurant.web.app/",
     "appScreenshot": "",
     "technologies": [
       {
-        "name": ""
+        "name": "HTMl"
+      },
+      {
+        "name": "SASS"
+      },
+      {
+        "name": "React"
+      },
+      {
+        "name": "Github"
+      },
+      {
+        "name": "Figma"
+      },
+      {
+        "name": "Firebase"
       }
     ]
   },
@@ -178,14 +190,29 @@
     "name": "Learning Platform",
     "image": "learning-platform.png",
     "alt": "A hand holding a set of books",
-    "isDone": false,
-    "desc": "",
-    "gitLink": "",
-    "appLink": "",
+    "isDone": true,
+    "desc": "In this application you can learn fashion Stying, as an admin you can add courses, update or delete them. Also you can view users and delete any of them. As a Student you can view courses and check all materials. To be able to login as teacher use the following credentials: \n email: john@gmail.com password: 12345678",
+    "gitLink": "https://github.com/sylviaadel/learning-management-system.git",
+    "appLink": "https://sylvia-learning-system.web.app/",
     "appScreenshot": "",
     "technologies": [
       {
-        "name": ""
+        "name": "HTMl"
+      },
+      {
+        "name": "SASS"
+      },
+      {
+        "name": "React"
+      },
+      {
+        "name": "Github"
+      },
+      {
+        "name": "Figma"
+      },
+      {
+        "name": "Firebase"
       }
     ]
   },
