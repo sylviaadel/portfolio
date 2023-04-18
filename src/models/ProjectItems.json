@@ -221,14 +221,29 @@
     "name": "Netflix",
     "image": "netflix.png",
     "alt": "A TV opened on Netflix",
-    "isDone": false,
-    "desc": "",
-    "gitLink": "",
-    "appLink": "",
+    "isDone": true,
+    "desc": "This project is a clone of Netflix, where there are two roles, a user and an admin, the user can view all titles along with their details while the admin can edit, add or delete any of them.",
+    "gitLink": "https://github.com/sylviaadel/netflix.git",
+    "appLink": "https://sylvia-tadross-netflix.web.app/",
     "appScreenshot": "",
     "technologies": [
       {
-        "name": ""
+        "name": "HTMl"
+      },
+      {
+        "name": "SASS"
+      },
+      {
+        "name": "React"
+      },
+      {
+        "name": "Github"
+      },
+      {
+        "name": "Figma"
+      },
+      {
+        "name": "Firebase"
       }
     ]
   }
